@@ -45,6 +45,21 @@ class MainTest {
         assertFalse(Main.isLeapYear(1900));
     }
 
+    @Test
+    void year4ShouldBeALeapYear() {
+        assertTrue(Main.isLeapYear(4));
+    }
+
+    @Test
+    void year400ShouldBeALeapYear() {
+        assertTrue(Main.isLeapYear(400));
+    }
+
+    @Test
+    void year10ShouldNotBeALeapYear() {
+        assertFalse(Main.isLeapYear(100));
+    }
+
     // Source for leap years: https://miniwebtool.com/leap-years-list/
     @Test
     void checkThatAllLeapYearsInArrayIsTrue() {
