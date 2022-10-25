@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MainTest {
 
     @Test
-    public void theseNumbersAreDivisibleBy4ButNot100() {
+    public void testTheseNumbersAreDivisibleBy4ButNot100() {
         assertTrue(Main.isLeapYear(4));
         assertTrue(Main.isLeapYear(8));
         assertTrue(Main.isLeapYear(16));
@@ -22,7 +22,7 @@ public class MainTest {
     }
 
     @Test
-    public void theseNumbersAreDivisibleBy4And100() {
+    public void testTheseNumbersAreDivisibleBy4And100() {
         assertFalse(Main.isLeapYear(100));
         assertFalse(Main.isLeapYear(200));
         assertFalse(Main.isLeapYear(300));
@@ -32,7 +32,7 @@ public class MainTest {
     }
 
     @Test
-    public void theseNumbersAreNotDivisibleBy4() {
+    public void testTheseNumbersAreNotDivisibleBy4() {
         assertFalse(Main.isLeapYear(3));
         assertFalse(Main.isLeapYear(5));
         assertFalse(Main.isLeapYear(7));
@@ -49,7 +49,7 @@ public class MainTest {
     }
 
     @Test
-    public void theseNumbersAreDivisibleBy400() {
+    public void testTheseNumbersAreDivisibleBy400() {
         assertTrue(Main.isLeapYear(400));
         assertTrue(Main.isLeapYear(800));
         assertTrue(Main.isLeapYear(1200));
@@ -64,7 +64,7 @@ public class MainTest {
 
 
     @Test
-    public void theseYearsAreLeapYears() {
+    public void testTheseYearsAreLeapYears() {
         assertTrue(Main.isLeapYear(1980));
         assertTrue(Main.isLeapYear(1984));
         assertTrue(Main.isLeapYear(1988));
@@ -80,7 +80,7 @@ public class MainTest {
     }
 
     @Test
-    public void theseYearsAreNotLeapYears() {
+    public void testTheseYearsAreNotLeapYears() {
         assertFalse(Main.isLeapYear(1981));
         assertFalse(Main.isLeapYear(1982));
         assertFalse(Main.isLeapYear(1983));
