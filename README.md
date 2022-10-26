@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/Mats-Hansen/SE_Oblig3_MatsHansen/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/Mats-Hansen/SE_Oblig3_MatsHansen/actions/workflows/maven.yml)
+
 # Oblig 3 - Software engineering
 
 
